@@ -1,6 +1,9 @@
 ---
 language: objective-c
 
+service_name: travis-pro
+repo_token: IyDuCgLVG1kzDYCyc5nogIO5cLYOBYyw1
+
 before_install:
   - sudo easy_install cpp-coveralls
   - export LANG=en_US.UTF-8
